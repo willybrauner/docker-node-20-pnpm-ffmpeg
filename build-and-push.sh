@@ -1,10 +1,10 @@
 #!/bin/bash
 # Build and push the multi-platform image
 # Usage: ./build-and-push.sh [NODE_VERSION] [PNPM_VERSION]
-# ex:    ./build-and-push.sh 24.21.0 12.6.0
+# ex:    ./build-and-push.sh 24.22.3 12.6.0
 set -euo pipefail
 
-NODE_VERSION="${1:-24.21.0}"
+NODE_VERSION="${1:-24.22.3}"
 PNPM_VERSION="${2:-12.6.0}"
 NODE_MAJOR="${NODE_VERSION%%.*}"
 IMAGE="willybrownhair/node-${NODE_MAJOR}-pnpm-ffmpeg"

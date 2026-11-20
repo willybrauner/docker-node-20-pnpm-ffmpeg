@@ -3,7 +3,7 @@
 # Usage: ./test.sh [NODE_VERSION] [PNPM_VERSION]
 set -euo pipefail
 
-NODE_VERSION="${1:-24.21.0}"
+NODE_VERSION="${1:-24.22.3}"
 PNPM_VERSION="${2:-12.6.0}"
 IMAGE="node-pnpm-ffmpeg:test"
 

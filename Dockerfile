@@ -1,5 +1,5 @@
-# Node version (full version, ex: 24.21.0), set by build-and-push.sh
-ARG NODE_VERSION=24.21.0
+# Node version (full version, ex: 24.22.3), set by build-and-push.sh
+ARG NODE_VERSION=24.22.3
 
 # Base stage
 FROM node:${NODE_VERSION}-alpine AS base
